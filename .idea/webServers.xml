@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2114f684-a292-4a32-807d-94cc46ccee81" name="song001.top" url="http://song001.top">
+        <fileTransfer host="song001.top" port="2121" rootFolder="/root/java/apache-tomcat-9.0.11/webapps" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions controlEncoding="UTF-8" dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="2121" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
