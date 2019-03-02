@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+/****----按钮基础样式----****/
+.ui-form-item-r button {
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    font-size: 0.14rem;
+    top: 7px;
+    right: 15px;
+    border-radius: 4px;
+    padding: 0 !important;
+}
+button.ui-border-l{
+	width: 90px;
+    height: 43px;
+    line-height: 43px;
+    top: 1px;
+    right: 0;
+    border-radius: 0;
+    background-color: #fff;
+    color: #deb772;
+    border: 0;
+    font-size: 15px;
+    background-image: none;
+}
+button.ui-border-l.ui-btn-warning:not(.disabled):not(:disabled):active{
+	background: #f9f7f6;
+    border-color: #f9f7f6;
+    color: #DEB772;
+    background-clip: padding-box;
+}
+.ui-sms-btn{
+	position: absolute;
+	height: 22px;
+    line-height: 22px;
+    font-size: 15px;
+    color: #4F5FCE;
+    width: 100px;
+    top: 15px;
+    right: 15px;
+    text-align: center;
+}
+.ui-sms-btn:active{
+	color: #676e9c;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2){
+	button.ui-border-l:before {
+	    border-radius: 6px;
+	}
+}
+
+.ui-form>.ui-form-item .ui-display-field button{
+	border: 1px solid #eb9500;
+    padding: 0 0.1rem;
+    color: #eb9500;
+    border-radius: 10px;
+    font-size: 0.1rem;
+    margin: 0 5px 0 5px;
+    line-height: 20px;
+}
+/*交易密码下按钮样式*/
+.yui-btn-wrap{
+	padding:0 10px;
+}
+
+.ui-switch {
+    margin-top: -16px;
+}
+
+/****----自定义按钮（余额查询、获取验证码）----****/
+.yui-btn-1 {
+    position: absolute;
+    right: 15px;
+    top: 8px;
+    height: 26px;
+    line-height: 26px;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2){
+	.yui-btn-1:before {
+	    border-radius: 25px;
+	    pointer-events: none;
+	}
+}
+.yui-btn-1-reg{
+ right: 0;
+}
+.ui-btn-s,.ui-btn,.ui-btn-lg {
+	border-radius: 5px;
+	background-image: linear-gradient(-90deg, #D8AC61 0%, #E8CA8E 100%);
+	border-color: #E8CA8E;
+}
+.ui-btn-primary:not(.disabled):not(:disabled):active,.ui-btn-primary.active{
+    border-color: #1f7cf0;
+    background: #1f7cf0 -webkit-gradient(linear, left top, left bottom, color-stop(0.5, #1f7cf0), to(#1f7cf0));
+    color:rgba(255, 255, 255, 0.5);
+}
+.ui-btn-primary:not(.disabled):not(:disabled):active, .ui-btn-primary.active {
+    border-color:#dec38e;
+   	background-image: linear-gradient(-90deg, #b79150 0%, #dec38e 100%);
+    -webkit-background-clip: padding-box;
+ }
+
+.ui-btn-s.ui-btn-outlined,.ui-btn.ui-btn-outlined,.ui-btn-lg.ui-btn-outlined{
+	background-image: none;
+    color: #D8AC61;
+}
+.ui-btn-primary:not(.disabled):not(:disabled).ui-btn-outlined:active, .ui-btn-primary.ui-btn-outlined.active{
+	background: #f2f2f2;
+    color: #D8AC61;
+}
+
+
+
